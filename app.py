@@ -9,7 +9,7 @@ import pandas as pd
 from io import StringIO
 from pdf2image import convert_from_path
 
-api_key = "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"
+api_key = "You Open AI API Key"
 
 def extract_tables_from_pdfs(input_folder, output_folder):
     # Check if the output folder exists, if not, create it
